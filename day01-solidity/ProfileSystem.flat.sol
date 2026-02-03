@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+// src/ProfileSystem.sol
+
 contract ProfileSystem {
     event ProfileCreated(address indexed user, string username);
     event LevelUp(address indexed user, uint256 newLevel);
@@ -44,3 +46,4 @@ contract ProfileSystem {
         emit LevelUp(msg.sender, profile.level);
     }
 }
+
