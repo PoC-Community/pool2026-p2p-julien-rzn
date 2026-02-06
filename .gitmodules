@@ -1,0 +1,3 @@
+[submodule "day04/lib/openzeppelin-contracts"]
+	path = day04/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
